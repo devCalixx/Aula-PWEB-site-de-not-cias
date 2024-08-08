@@ -1,0 +1,132 @@
+.corpo {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*FONTE*/
+
+.titulo {
+    font-size: 70px;
+    margin-top: 15px;
+    margin-bottom: -10px;
+}
+
+.titulo, .subtitulo {
+    text-align: center;
+}
+
+/*CSS do título*/
+
+.header2 {
+    background-color: lightcoral;
+    margin: -10px;
+    padding: 3px;
+    position: inherit;
+}
+
+/*CSS do menu*/
+
+.menu {
+    background-color: rgb(224, 102, 102);
+    display: inline-flex;
+    width: 100%;
+    margin: -10px;
+    margin-top: 10px;
+    padding-right: 30px;
+}
+
+.menu .lista-menu {
+    list-style-type: none;
+    display: flex;
+    flex: 3;
+}
+
+.menu .linha-lista {
+    display: inline;
+    text-align: center;
+    flex: 1;
+}
+
+/*PÁGINA INICIAL*/
+
+.barras {
+    margin-right: 20%;
+    margin-left: 40%;
+    margin-top: 50px;
+    padding:5px;
+    background-color: lightcoral;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.paragrafos-inicio {
+    margin-right: 20%;
+    margin-left: 40%;
+}
+
+.imagem-missao {
+    margin-right: 20%;
+    margin-left: 40%;
+    width:760px;
+    align-items: center;
+}
+
+.noticia-recente {
+    margin-right: 20%;
+    margin-left: 40%;
+    margin-top: 20px;
+    padding:5px;
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.texto-noticia-r {
+    margin-right: 50%;
+    margin-left: 60px;
+    margin-top: 45px;
+    margin-bottom: -15px;
+}
+
+.imagem-noticia-r {
+    margin-left: 50%;
+    margin-bottom: 10px;
+    margin-top: -110px;
+    width:190px;
+    align-items: center;
+}
+
+.aside {
+    border-radius: 10px;
+    background-color:rgb(238, 238, 238);
+    margin-left: 20%;
+    margin-top: -1070px;
+    height: 1100px;
+    width:300px;
+}
+
+.aside .texto-aside {
+    text-align: center;
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.footer {
+    background-color: rgba(238, 238, 238, 0.6);
+    display: inline-flex;
+    width: 360px;
+    margin: -10px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    padding-right: 30px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.n-aside {
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgb(211, 211, 211);
+    border-radius: 10px;
+    margin:15px;
+}
